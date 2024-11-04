@@ -1,0 +1,8 @@
+<h1>チャットルーム</h1>
+<div id ='messages'>
+  <%= render @messages %>
+</div>
+<form id="messageForm">
+  <input type="text" data-behavior="room_speaker" id="messageInput">
+  <button type="submit">送信</button>
+</form>
